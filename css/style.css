@@ -50,14 +50,14 @@ section{
    background-position: top !important;
    background-color: rgba(1,1,1,1);
 }
-#home h1
+#home .h1
 {
   font-family: 'Staatliches', cursive;
     color: white;
     font-size: 11vh;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
 }
-#home h2
+#home .h2
 {
     color: white;
     font-size: 5vh;
@@ -92,7 +92,11 @@ section{
   font-size: 1.2em;
   font-weight: 400;
 }
- .profile h1, .profile h2{
+#about ul
+{
+  align-items: center;
+}
+ .profile p{
      text-align: center;
 }
  .avatar{
