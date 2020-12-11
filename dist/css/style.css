@@ -45,7 +45,7 @@ section{
  #home{
    height:100vh;
    width: 100%;
-   background: url("../img/bacground.png") no-repeat center center fixed;
+   background: url("../img/bacground.webp") no-repeat center center fixed;
    background-size: cover;
    background-position: top !important;
    background-color: rgba(1,1,1,1);
