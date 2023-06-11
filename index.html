@@ -14,15 +14,15 @@
 	<meta property="og:url" content="https://piotrgalazka.pl">
 	<!--================Scripts================-->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script async src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-	<script async src="js/bootstrap.min.js"></script>
+	<script  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>t>
+	<script  src="js/bootstrap.min.js"></script>
 <!--================Stylesheet================-->
 	<link href="css/bootstrap.min.css" rel="stylesheet" >
 	<link href="css/navstyle.css" rel="stylesheet" >
 	<link href="css/style.css" rel="stylesheet" >
 	<link rel="icon" type="image/png" href="img/favicon.png"/>
 <!--================Fonts================-->
-	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!--================Google Analytics================-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-96JP28P715"></script>
@@ -32,6 +32,12 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-96JP28P715');
+	</script>
+
+<script >
+	$(document).ready(function(){
+	  $('[data-toggle="tooltip"]').tooltip();   
+	});
 	</script>
 </head>
 <body class="animate-in">
@@ -91,19 +97,19 @@
 							</div>
 							<ul class="list-inline-block d-flex justify-content-center p-0 m-0">
 								<li class="list-inline-item">
-									<a href="mailto:pgalazka98@gmail.com"><img class="icon" src="img/ico/mailIco.png" alt="Send me a mail"></a>
+									<a href="mailto:pgalazka98@gmail.com"><img class="icon" src="img/ico/mailIco.png" alt="Send me a mail" data-toggle="tooltip" title="Send me a mail"></a>
 								</li>
 								<li class="list-inline-item">
-									<a href="https://github.com/galazkap" rel="noopener" target="_blank"><img class="icon" src="img/ico/githIco.png" alt="GitHub"></a>
+									<a href="https://github.com/galazkap" rel="noopener" target="_blank"><img class="icon" src="img/ico/githIco.png" alt="GitHub" data-toggle="tooltip" title="Github"></a>
 								</li>
 								<li class="list-inline-item">
-									<a href="https://olgagames.itch.io/" rel="noopener" target="_blank"><img class="icon" src="img/ico/itchioIco.png" alt="Itchio"></a>
+									<a href="https://olgagames.itch.io/" rel="noopener" target="_blank"><img class="icon" src="img/ico/itchioIco.png" alt="Itchio" data-toggle="tooltip" title="Itch.io"></a>
 								</li>
 								<li class="list-inline-item">
-									<a href="https://www.linkedin.com/in/piotr-ga%C5%82%C4%85zka-8278b8201/" rel="noopener" target="_blank"><img class="icon" src="img/ico/linkedinIco.png" alt="Linkedin"></a>
+									<a href="https://www.linkedin.com/in/piotr-ga%C5%82%C4%85zka-8278b8201/" rel="noopener" target="_blank"><img class="icon" src="img/ico/linkedinIco.png" alt="Linkedin" data-toggle="tooltip" title="Linkedin"></a>
 								</li>
 								<li class="list-inline-item">
-									<a href="https://twitter.com/xPittti" rel="noopener" target="_blank"><img class="icon" src="img/ico/twitterIco.png" alt="Twitter"></a>
+									<a href="https://twitter.com/xPittti" rel="noopener" target="_blank"><img class="icon" src="img/ico/twitterIco.png" alt="Twitter" data-toggle="tooltip" title="Twitter"></a>
 								</li>
 							</ul>
 						</div>
@@ -157,6 +163,29 @@
 				<div class="row">
 					<h1 class="col-12 h1 d-flex justify-content-center section-heading">Projects</h1>
 <!--================Project================-->
+<div class="col-12 col-lg-6">
+	<div class="project">
+		<div class="project-thbnail">
+			<a href="DragonessCommandOfTheFlame"><img class="project-icon" src="img/projects/DragonessCommandOfTheFlame/Icon_Dragoness.png" alt="Dragoness Command Of The Flame"></a>
+		</div>
+		<div class="project-text">
+			<a href="TheDragoness" class="project-link">
+				<p class="h3 project-title" style="text-align: left; line-height: 1;">The Dragoness:</p>
+				<p class="project-title" style="text-align: left; line-height: 1;">Command of the Flame</p>
+			  </a>			  
+			<p class="project-description">A HOMM-inspired adventure with a roguelite twist.</p>
+			<a class="btn btn-primary btn-more" href="TheDragoness" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+			<a class="btn btn-primary m-0 btn-steam" href="https://store.steampowered.com/app/1413580/The_Dragoness_Command_of_the_Flame/" rel="noopener" target="_blank"  data-toggle="tooltip" title="Steam"><i class="fa fa-brands fa-steam"></i></a>
+			<a class="btn btn-primary m-0 btn-ps-store" href="https://store.playstation.com/en-us/concept/10005578" rel="noopener" target="_blank" data-toggle="tooltip" title="Playstation Store"><i class="fa-brands fa-playstation" style="color: #ffffff;"></i></a>
+			<a class="btn btn-primary m-0 btn-xbox-store " href="https://www.xbox.com/en-US/games/store/the-dragoness-command-of-the-flame/9mx369hpgvgh" rel="noopener" target="_blank" data-toggle="tooltip" title="Xbox Store"><i class="fa fa-brands fa-xbox" style="color: #ffffff;"></i></a>
+			<a class="btn btn-primary m-0 btn-nintendo" href="https://www.nintendo.com/store/products/the-dragoness-command-of-the-flame-switch/" rel="noopener" target="_blank" data-toggle="tooltip" title="Nintendo Store"><img src="img\ico\nintendo_switch.png" alt="Nintendo" class="custom-icon"></a>
+			<a class="btn btn-primary m-0 btn-epic-store" href="https://store.epicgames.com/pl/p/the-dragoness-command-of-the-flame-b3b544" rel="noopener" target="_blank" data-toggle="tooltip" title="Epic Games Store"><img src="img\ico\epic_icon.png" alt="Epic Game Store" class="custom-icon"></a>
+			<a class="btn btn-primary m-0 btn-gog" href="https://www.gog.com/en/game/the_dragoness_command_of_the_flame" rel="noopener" target="_blank" data-toggle="tooltip" title="Gog"><img src="img\ico\gog_icon.png" alt="Gog Store" class="custom-icon"></a>
+		</div>
+	</div>
+</div>
+<!--================End of Project================-->
+<!--================Project================-->
 					<div class="col-12 col-lg-6">
 						<div class="project">
 							<div class="project-thbnail">
@@ -165,7 +194,8 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="PixelDetective">Pixel Detective</a></p>
 								<p class="project-description">A puzzle game in which the player takes on the role of a criminal detective, whose task is to find the criminal.</p>
-								<a class="btn btn-outline-warning" href="PixelDetective" role="button">More</a> <a class="btn btn-outline-danger mx-2" href="https://olgagames.itch.io/pixel-detective" rel="noopener" target="_blank"><i class="fa fa-play-circle"></i> Itch.io</a>
+								<a class="btn btn-primary btn-more" href="PixelDetective" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+								<a class="btn btn-primary m-0 btn-itchio" href="https://olgagames.itch.io/pixel-detective" rel="noopener" target="_blank" data-toggle="tooltip" title="Itch.io"><img src="img\ico\itchioIcoSmall.png" alt="Itch.io" class="custom-icon"></a>
 							</div>
 						</div>
 					</div>
@@ -179,7 +209,8 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="SmlSizeMatters">SML: Size Matters</a></p>
 								<p class="project-description">A 2D puzzle game in which we have to serve as many customers as possible in the shortest possible time!</p>
-								<a class="btn btn-outline-warning" href="SmlSizeMatters" role="button">More</a> <a class="btn btn-outline-danger mx-2" href="https://olgagames.itch.io/sml-size-matters" rel="noopener" target="_blank"><i class="fa fa-play-circle"></i> Itch.io</a>
+								<a class="btn btn-primary btn-more" href="SmlSizeMatters" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+								<a class="btn btn-primary m-0 btn-itchio" href="https://olgagames.itch.io/sml-size-matters" rel="noopener" target="_blank" data-toggle="tooltip" title="Itch.io"><img src="img\ico\itchioIcoSmall.png" alt="Itch.io" class="custom-icon"></a>
 							</div>
 						</div>
 					</div>
@@ -193,7 +224,8 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="JustTwoDogs">Just Two Dogs</a></p>
 								<p class="project-description">Just two dogs is a puzzle platformer game, where you control two dogs, that have been kidnapped.</p>
-								<a class="btn btn-outline-warning" href="JustTwoDogs" role="button">More</a> <a class="btn btn-outline-danger mx-2" href="https://olgagames.itch.io/just-two-dogs" rel="noopener" target="_blank"><i class="fa fa-play-circle"></i> Itch.io</a>
+								<a class="btn btn-primary btn-more" href="JustTwoDogs" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+								<a class="btn btn-primary m-0 btn-itchio" href="https://olgagames.itch.io/just-two-dogs" rel="noopener" target="_blank" data-toggle="tooltip" title="Itch.io"><img src="img\ico\itchioIcoSmall.png" alt="Itch.io" class="custom-icon"></a>
 							</div>
 						</div>
 					</div>
@@ -207,7 +239,8 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="BearMiner">BearMiner</a></p>
 								<p class="project-description">A platform game in which we play the role of a miner's bear and try to go down to the lowest shaft in the mine.</p>
-								<a class="btn btn-outline-warning" href="BearMiner" role="button">More</a> <a class="btn btn-outline-danger mx-2" href="https://olgagames.itch.io/bearminer" rel="noopener" target="_blank"><i class="fa fa-play-circle"></i> Itch.io</a>
+								<a class="btn btn-primary btn-more" href="BearMiner" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+								<a class="btn btn-primary m-0 btn-itchio" href="https://olgagames.itch.io/bearminer" rel="noopener" target="_blank" data-toggle="tooltip" title="Itch.io"><img src="img\ico\itchioIcoSmall.png" alt="Itch.io" class="custom-icon"></a>
 							</div>
 						</div>
 					</div>
@@ -221,7 +254,7 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="PnC">P'n'C</a></p>
 								<p class="project-description">A point and click game in which the goal is to solve all puzzles on a level in the shortest possible time.</p>
-								<a class="btn btn-outline-warning" href="PnC" role="button">More</a>
+								<a class="btn btn-primary btn-more" href="PnC" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
 							</div>
 						</div>
 					</div>
@@ -235,7 +268,7 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="TurboJelly">Turbo Jelly</a></p>
 								<p class="project-description">A 3D platform game in which the goal is to break out of prison. However, it is not as simple as it may seem.</p>
-								<a class="btn btn-outline-warning" href="TurboJelly" role="button">More</a>
+								<a class="btn btn-primary btn-more" href="TurboJelly" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
 							</div>
 						</div>
 					</div>
@@ -249,7 +282,7 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="RedRiddingHood">Red Ridding Hood</a></p>
 								<p class="project-description">An alternative version of the Red Riding Hood set in a magical world.</p>
-								<a class="btn btn-outline-warning" href="RedRiddingHood" role="button">More</a>
+								<a class="btn btn-primary btn-more" href="RedRiddingHood" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
 							</div>
 						</div>
 					</div>
@@ -263,7 +296,10 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="FreeCamera">Free Camera</a></p>
 								<p class="project-description">A tool that allows to move camera everywhere we want just like noclip.</p>
-								<a class="btn btn-outline-warning" href="FreeCamera" role="button">More</a><a class="btn btn-outline-primary mx-2" href="https://github.com/galazkap/Free-Camera-for-Unity" rel="noopener" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+
+								<a class="btn btn-primary btn-more" href="FreeCamera" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
+								<a class="btn btn-primary m-0 btn-steam" href="https://github.com/galazkap/Free-Camera-for-Unity" rel="noopener" target="_blank"  data-toggle="tooltip" title="GitHub"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -277,7 +313,7 @@
 							<div class="project-text">
 								<p class="h3 project-title"><a href="DoublePendulum">Double Pendulum</a></p>
 								<p class="project-description">Physical simulation of the movement of a double pendulum.</p>
-								<a class="btn btn-outline-warning" href="DoublePendulum" role="button">More</a>
+								<a class="btn btn-primary btn-more" href="DoublePendulum" role="button" data-toggle="tooltip" title="More"><i class="fas fa-ellipsis-v"></i></a>
 							</div>
 						</div>
 					</div>
@@ -322,19 +358,19 @@
 					<div class="flex-center">
 						<ul class="list-inline-block d-flex justify-content-center p-0 m-0">
 							<li class="list-inline-item">
-								<a href="mailto:pgalazka98@gmail.com"><img class="icon" src="img/ico/mailIco.png" alt="Send me a mail"></a>
+								<a href="mailto:pgalazka98@gmail.com"><img class="icon" src="img/ico/mailIco.png" alt="Send me a mail" data-toggle="tooltip" title="Send me a mail"></a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://github.com/galazkap" rel="noopener" target="_blank"><img class="icon" src="img/ico/githIco.png" alt="GitHub"></a>
+								<a href="https://github.com/galazkap" rel="noopener" target="_blank"><img class="icon" src="img/ico/githIco.png" alt="GitHub" data-toggle="tooltip" title="GitHub"></a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://olgagames.itch.io/" rel="noopener" target="_blank"><img class="icon" src="img/ico/itchioIco.png" alt="Itchio"></a>
+								<a href="https://olgagames.itch.io/" rel="noopener" target="_blank"><img class="icon" src="img/ico/itchioIco.png" alt="Itchio" data-toggle="tooltip" title="Itch.io"></a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://www.linkedin.com/in/piotr-ga%C5%82%C4%85zka-8278b8201/" rel="noopener" target="_blank"><img class="icon" src="img/ico/linkedinIco.png" alt="Linkedin"></a>
+								<a href="https://www.linkedin.com/in/piotr-ga%C5%82%C4%85zka-8278b8201/" rel="noopener" target="_blank"><img class="icon" src="img/ico/linkedinIco.png" alt="Linkedin" data-toggle="tooltip" title="Linkedin"></a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://twitter.com/xPittti" rel="noopener" target="_blank"><img class="icon" src="img/ico/twitterIco.png" alt="Twitter"></a>
+								<a href="https://twitter.com/xPittti" rel="noopener" target="_blank"><img class="icon" src="img/ico/twitterIco.png" alt="Twitter" data-toggle="tooltip" title="Twitter"></a>
 							</li>
 						</ul>
 					</div>
@@ -352,6 +388,5 @@
 	<script async src="js/StickyNav.js"></script>
 	<script async src="js/Contact.js"></script>
 	<script async src="js/SmoothScroll.js"></script>
-
 </body>
 </html>

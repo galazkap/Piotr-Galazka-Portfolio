@@ -149,6 +149,7 @@ section{
      list-style: none;
      margin: 0 0;
 }
+
  .icon{
      opacity: 0.9;
      transition: all 0.5s ease;
@@ -239,6 +240,130 @@ section{
     animation: fadeIn 0.5s ease-in-out;
 }
 
+.btn-itchio {
+  background-color: #fa5c5c;
+  color: white;
+  border: none;
+}
+
+.btn-itchio:hover,
+.btn-itchio:focus {
+  background-color: #d83a3a;
+}
+
+.btn-github {
+  background-color: #24292e;
+  color: white;
+  border: none;
+}
+
+.btn-github:hover,
+.btn-github:focus {
+  background-color: #1c2024;
+}
+
+.btn-more {
+  background-color: #de6328;
+  color: white;
+  border: none;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+.btn-more:hover,
+.btn-more:focus {
+  background-color: #c25623;
+}
+
+.btn-steam {
+  background-color: #3b6491;
+  color: white;
+  border: none;
+}
+
+.btn-steam:hover,
+.btn-steam:focus {
+  background-color: #214585;
+}
+
+.btn-ps-store {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+}
+
+.btn-ps-store:hover,
+.btn-ps-store:focus {
+  background-color: #0056b3;
+}
+
+.btn-xbox-store {
+  background-color: #107c10;
+  color: white;
+  border: none;
+}
+
+.btn-xbox-store:hover,
+.btn-xbox-store:focus {
+  background-color: #0b5d0b;
+}
+
+.btn-epic-store {
+  background-color: #858585;
+  color: white;
+  border: none;
+}
+
+.btn-epic-store:hover,
+.btn-epic-store:focus {
+  background-color: #666666;
+}
+
+.btn-gog {
+  background-color: #4d4d76;
+  color: white;
+  border: none;
+}
+
+.btn-gog:hover,
+.btn-gog:focus {
+  background-color: #3b3b61;
+}
+
+.btn-nintendo {
+  background-color: #e60012;
+  color: white;
+  border: none;
+}
+
+.btn-nintendo:hover,
+.btn-nintendo:focus {
+  background-color: #b3000b;
+}
+
+.project-link:hover p,
+.project-link:focus p {
+  color: #e16428; /* Zmiana koloru tekstu po najechaniu na odnośnik */
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.button-grid a {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.producent_logo {
+  width: 200px;
+  height: 200px;
+}
+
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -258,7 +383,6 @@ section{
         width: 100%;
         height: 100%;
    }
-
 }
 
 @media (max-width:540px) {
@@ -273,5 +397,4 @@ section{
       font-size: 2.5vh;
       height: 10vh;
   }
-
 }
